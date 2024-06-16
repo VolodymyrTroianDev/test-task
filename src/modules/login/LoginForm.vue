@@ -55,7 +55,7 @@
             type="submit"
             class="bg-green-500 hover:bg-green-600 border-0 rounded-md text-white font-bold w-full h-12 text-center"
           >
-            Register
+            Login
           </button>
         </footer>
       </div>
