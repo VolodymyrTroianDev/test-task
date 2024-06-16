@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-screen h-full relative flex flex-col min-h-screen"
+    class="w-full h-full relative flex flex-col min-h-screen"
     :class="{ 'blur-sm': isLoading || openCreateTodoModal}"
   >
     <router-view name="Header"/>
