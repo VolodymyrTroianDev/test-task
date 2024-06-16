@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-zinc-800 h-10">
-    Footer :)
+    <h2 class="text-white">Footer :)</h2>
   </footer>
 </template>
 

@@ -8,7 +8,7 @@
       :validation-schema="validationSchema"
       v-slot="{ values }"
     >
-      <div class="w-[500px] min-h-fit bg-neutral-200 gap-5 rounded">
+      <div class="max-w-[500px] w-full min-h-fit bg-neutral-200 gap-5 rounded">
         <header class="bg-neutral-400 flex justify-center items-center rounded-t h-12">
           <span class="text-gray-50">Create To Do</span>
           <button

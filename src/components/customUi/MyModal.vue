@@ -1,7 +1,7 @@
 <template>
   <Teleport to="#app">
     <Transition>
-      <div class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50" :class="props.styles"
+      <div class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 max-w-[500px] w-full" :class="props.styles"
            v-show="props.show" v-on-click-outside="closeModal">
         <slot></slot>
       </div>
